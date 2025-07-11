@@ -1,0 +1,20 @@
+{
+  "name": "cp4",
+  "version": "1.0.0",
+  "description": "Triviatron - A timed trivia streak game for CP4",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["trivia", "express", "node", "cp4", "triviatron"],
+  "author": "Salviya Balami",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
