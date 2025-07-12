@@ -1,12 +1,3 @@
-/**
- * Name: Salviya Balami
- * CS132 Spring 2025
- * Date: June 7th, 2025
- * 
- * This is the app.js file for Triviatron. It handles the backend logic, 
- * including serving static files, providing trivia questions, and 
- * evaluating user answers via GET and POST requests.
- */
 
 "use strict";
 
