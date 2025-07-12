@@ -7,11 +7,18 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": ["trivia", "express", "node", "cp4", "triviatron"],
+  "keywords": [
+    "trivia",
+    "express",
+    "node",
+    "cp4",
+    "triviatron"
+  ],
   "author": "Salviya Balami",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
