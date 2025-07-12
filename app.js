@@ -2,6 +2,7 @@
 "use strict";
 
 const express = require("express");
+const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 const app = express();
@@ -9,6 +10,7 @@ const app = express();
 /**
  * Middleware to parse JSON request bodies and serve static files from /public.
  */
+app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
